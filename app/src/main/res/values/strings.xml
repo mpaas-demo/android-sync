@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">移动同步</string>
+    <string name="sync">移动同步</string>
+    <string name="sync_bind">绑定用户</string>
+    <string name="sync_unbind">解绑定用户</string>
+    <string name="user_id_text">用户id</string>
+    <string name="session_id_text">会话id</string>
+    <string name="user_id_hint">请输入用户id</string>
+    <string name="session_id_hint">请输入会话id</string>
+
+    <string name="sync_bindTips">Tips：sync支持基于用户id的消息同步，使用前需要对用户id进行绑定。
+        sync客户端本地不对sessionId进行要求，sessionId用于配合业务端用户一致性验证
+        ，非必须</string>
+    <string name="sync_unBindTips">Tips：解除用户id的绑定和用户一致性验证</string>
+    <string name="sync_deviceIdTips">Tips：用户的设备id,根据utdid接口获取（UTDevice.getUtdid(context)）
+        ，sync初始化默认使用deviceid绑定即默认支持基于deviceid的消息同步</string>
+    <string name="sync_unconnected">连接状态：not connected </string>
+    <string name="sync_deviceData">基于设备获取的同步数据是： </string>
+    <string name="sync_uidData">基于用户id获取的同步数据是： </string>
+    <string name="sync_deviceid">设备id： </string>
+</resources>
